@@ -1,5 +1,5 @@
-[submodule "ExamenesViejos_AnalisisMatematico1_Computacion_FaMAF"]
-	path = ExamenesViejos_AnalisisMatematico1_Computacion_FaMAF
+[submodule "ExamenesViejos"]
+	path = ExamenesViejos
 	url = git@github.com:ExamenesViejos-FaMAF-Computacion/ExamenesViejos_AnalisisMatematico1_Computacion_FaMAF.git
 
 [submodule "Famaf-Resources-Manager"]
