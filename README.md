@@ -17,13 +17,19 @@ Es correlativa de:
 > http
 
 ```bash
-git clone https://github.com/FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF.git
+git clone --recurse-submodules https://github.com/FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF.git
 ```
 
 > ssh (recomendado)
 
 ```bash
-git clone git@github.com:FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF.git
+git clone --recurse-submodules git@github.com:FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF.git
+```
+
+## Update
+
+```bash
+git pull && git submodule update --init --recursive
 ```
 
 # Contribuciones
@@ -32,5 +38,5 @@ Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de 
 
 # Contributors
 <a href="https://github.com/FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF"/>
+  <img src="https://contrib.rocks/image?repo=FAMAF-resources/1_1C-Analisis_Matematico_I-FAMAF" height="50"/>
 </a>
